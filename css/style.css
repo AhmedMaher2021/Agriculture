@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.user{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+.user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.sign{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    background: #04AA6D;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: 0.3s all ease;
+}
+.sign:hover{
+    background: #3e8e41;
+}
+.zera3a{
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    right: 43%;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/pexels-pat-whelen-6026441.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.max-width{
+    max-width: 1400px;
+    height: 100%;
+}
+.content-one{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.content-two{
+    width:100%;
+    height: 100%;
+    justify-content: center;
+}
+.logo{
+    position: relative;
+    bottom: 13%;
+    right: -1%;
+}
+.logo h1{
+    font-family: 'Cinzel Decorative', sans-serif;
+    font-size: 60px;
+}
+/**//****************************************************/
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+#myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    right: 25%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+footer{
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.342);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 0 0 0 rgba(0, 0, 0, 0.5);
+}
+footer p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(20, 20, 20);
+    padding: 7px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+i{
+    margin: 0 10px 0 10px;
+    transition: 0.3s all ease;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.fa-facebook:hover{
+    color: #4267B2;
+}
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+
+/****************************first-year***************************************/
+.title{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 2px solid #000;
+    background-image: url("../img/جامعة\ عين\ شمس_0.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+    background-position-x: 100%;
+}
+.title h1{
+    margin-left: 5%;
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.choose1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../img/pexels-francesco-ungaro-1710813.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.choose2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../img/pexels-photomix-company-1002703.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.choose3{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../img/pexels-visually-us-1494068.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.choose4{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../img/pexels-ashish-raj-382040.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.term1{
+    background:  rgb(241, 241, 241);
+    width: 40%;
+    height: 80%;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+.term2{
+    background:  rgb(241, 241, 241);
+    width: 40%;
+    height: 80%;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+.not-text{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.not{
+    font-size: 150px;
+    font-family: sans-serif;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    color: #04AA6D;
+}
+.term1 a, .term2 a{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background: #04AA6D;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.term1 a:hover, .term2 a:hover{
+    background: #3e8e41;
+}
+
+/****************course tab***********************************************/
+
+.tabs{
+    height: 98vh;
+    width: 98vw;
+    margin: auto;
+}
+.top-bar{
+    background-color:rgb(235, 235, 235);
+    display: block;
+    height: 70px;
+    width: 100%;
+}
+.main-bar{
+    background-color: #fff;
+    height: 550px;
+    width: 80%;
+    float: right;
+}
+.left-bar{
+    background-color:rgb(235, 235, 235);
+    width: 20%;
+    height: 550px;
+    float: left;
+}
+.left-bar ul{
+    background-color: #04aa6d2a;
+    height: 545px;
+    width: 95%;
+    margin: auto;
+    padding-top: 5%;
+    border-radius: 15px;
+}
+.left-bar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    padding: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+}
+.left-bar a:hover{
+    background: #3e8e41;
+    color: #fff;
+}
+.left-bar li{
+    margin-top: 5%;
+    margin-left: 5%;
+    list-style: none;
+    width: 100%;
+}
